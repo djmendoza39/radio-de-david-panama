@@ -8,6 +8,17 @@
   text-align: center;
   padding-bottom: 2rem;
 }
+@media (min-width: 868px) {
+  .seccion-formulario .contenedor-formulario {
+    display: flex;
+  }
+  .seccion-formulario .contenedor-formulario .contact-info {
+    flex: 1;
+  }
+  .seccion-formulario .contenedor-formulario .formulario-input {
+    flex: 2;
+  }
+}
 
 .contact-info {
   text-align: center;

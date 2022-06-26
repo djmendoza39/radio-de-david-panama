@@ -42,11 +42,10 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1500px;
   height: auto;
-}
-@media (min-width: 568px) {
-  .container {
-    width: 90%;
+  /*@media(min-width:568px){
+      width: 100%;
   }
+  */
 }/*# sourceMappingURL=estilos.css.map */
