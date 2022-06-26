@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radio david</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/seccion-slider.css">
-    <link rel="stylesheet" href="css/seccion-104.5fm.css">
-    <link rel="stylesheet" href="css/seccion-donacion.css">
-    <link rel="stylesheet" href="css/seccion-apps.css">
-    <link rel="stylesheet" href="css/seccion-equipo.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="sass/estilos.css">
+    <link rel="stylesheet" href="sass/header.css">
+    <link rel="stylesheet" href="sass/seccion-slider.css">
+    <link rel="stylesheet" href="sass/seccion-104.5fm.css">
+    <link rel="stylesheet" href="sass/seccion-donacion.css">
+    <link rel="stylesheet" href="sass/seccion-apps.css">
+    <link rel="stylesheet" href="sass/seccion-equipo.css">
+    <link rel="stylesheet" href="sass/seccion-formulario.css">
+    <link rel="stylesheet" href="sass/ubicacion.css">
+    <link rel="stylesheet" href="sass/footer.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
@@ -116,6 +118,44 @@
                         <img src="img/personal/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
                     </div>
                 </div>
+            </section>
+
+            <!-- seccion formulario -->
+            <section class="seccion-formulario">
+                <h3>Póngase en contacto con nosotros</h3>
+                <p>En este espacio puedes contactarnos para tenerte en nuestras oraciones</p>
+                <div class="contenedor-formulario">
+                    <div class="contact-info">
+                        <span>Escribenos</span>
+                        <a href="#">info@farodedavid.com</a>
+                        <span>LLámanos</span>
+                        <a class="ir-aSitio" href="https://api.whatsapp.com/send?phone=5077743052" target="_blank">507-774-3052 </a>
+                        <span>Visítanos</span>
+                        <a href="#" target="_blank">CHGF+6WR, David</a>
+                        <span>Social Links</span>
+                        <div class="social-links">
+                            <i class="bi bi-facebook" aria-hidden="true"></i>
+                            <i class="bi bi-whatsapp" aria-hidden="true"></i>
+                            <i class="bi bi-youtube" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    <form class="formulario-input" action="#">
+                        <label for="" name="Nombres"> Nombres:</label>
+                        <input class="formulario-input--input" type="text" placeholder="Ingrese sus nombres">
+                        <label for="" name="apellidos"> Apellidos:</label>
+                        <input class="formulario-input--input" type="text" placeholder="Ingrese sus Apellidos">
+                        <label for="" name="correo">Dirección de correo</label>
+                        <input class="formulario-input--input" type="email" placeholder="Dejanos tu correo">
+                        <label for=""></label>
+                        <textarea name="contenido" id="contenido" cols="30" rows="10" placeholder="Cuentanos mas de ti"></textarea>
+                        <button class="btn-formulario" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- seccion ubicacion google map -->
+            <section class="seccion-ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7893.511785811116!2d-82.425245!3d8.425617!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb63b9dc34f82f926!2sFaro%20de%20David%20104.5%20FM!5e0!3m2!1ses-419!2spa!4v1655175464919!5m2!1ses-419!2spa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
     </section>
