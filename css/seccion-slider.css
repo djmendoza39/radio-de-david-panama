@@ -1,15 +1,14 @@
 .container-slider {
-  background-color: rgb(84, 35, 117);
+  background-color: rgb(55, 13, 83);
   background-image: url(../img/radio-1012471.jpg);
-  background-position: top center;
+  background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   display: grid;
   place-content: center;
   width: 100%;
-  height: 40vh;
-  position: relative;
+  height: 54vh;
 }
 .container-slider * {
   color: azure;

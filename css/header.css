@@ -12,9 +12,11 @@
   background-color: aqua;
 }
 .header .btn-menu {
-  background-color: rgb(163, 175, 172);
+  background-color: rgb(56, 150, 228);
   border-radius: 2px;
+  padding: 0.4rem;
 }
 .header .btn-menu * {
   font-size: 26px;
+  color: aliceblue;
 }/*# sourceMappingURL=header.css.map */
