@@ -13,13 +13,18 @@
   font-size: 2rem;
   color: aliceblue;
   padding-top: 1.4rem;
+  text-align: center;
 }
 .seccion-apps .seccion-apps__articulo p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   padding-top: 1.2rem;
   padding-bottom: 1rem;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   line-height: 1.8rem;
+  text-align: center;
+}
+.seccion-apps .botones-app {
+  text-align: center;
 }
 .seccion-apps .botones-app .img-tiendas-store {
   width: 60%;

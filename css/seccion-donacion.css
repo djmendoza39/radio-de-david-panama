@@ -20,7 +20,7 @@
   padding-bottom: 1rem;
 }
 .seccion-donacion .seccion-donacion-btn .estilos-boton {
-  background-color: #701fe3;
+  background-color: #3896E4;
   border: none;
   border-radius: 0.3rem;
   color: aliceblue;
@@ -32,7 +32,7 @@
   margin-bottom: 1.2rem;
 }
 .seccion-donacion .seccion-donacion-btn .estilos-boton:hover {
-  background-color: #5215a7;
+  background-color: #19629d;
   transition: all 0.2s ease-in;
 }
 .seccion-donacion .seccion-donacion-tarjetas {
@@ -43,6 +43,6 @@
   padding-bottom: 1rem;
 }
 .seccion-donacion .seccion-donacion-tarjetas i {
-  color: #701fe3;
+  color: #19629d;
   font-size: 2.4rem;
 }/*# sourceMappingURL=seccion-donacion.css.map */
