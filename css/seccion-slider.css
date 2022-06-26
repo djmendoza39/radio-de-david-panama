@@ -8,7 +8,7 @@
   display: grid;
   place-content: center;
   width: 100%;
-  height: 54vh;
+  height: 70vh;
 }
 .container-slider * {
   color: azure;
