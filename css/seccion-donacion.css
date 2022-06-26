@@ -1,0 +1,48 @@
+.seccion-donacion {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.seccion-donacion .seccion-donacion-texto {
+  width: 100%;
+}
+.seccion-donacion .seccion-donacion-texto h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.seccion-donacion .seccion-donacion-texto h3 span {
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+.seccion-donacion .seccion-donacion-texto p {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.seccion-donacion .seccion-donacion-btn .estilos-boton {
+  background-color: #701fe3;
+  border: none;
+  border-radius: 0.3rem;
+  color: aliceblue;
+  font-size: 1.6rem;
+  width: 80%;
+  max-width: 24rem;
+  height: 5.2rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+.seccion-donacion .seccion-donacion-btn .estilos-boton:hover {
+  background-color: #5215a7;
+  transition: all 0.2s ease-in;
+}
+.seccion-donacion .seccion-donacion-tarjetas {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.seccion-donacion .seccion-donacion-tarjetas i {
+  color: #701fe3;
+  font-size: 2.4rem;
+}/*# sourceMappingURL=seccion-donacion.css.map */

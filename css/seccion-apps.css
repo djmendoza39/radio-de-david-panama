@@ -1,0 +1,30 @@
+.seccion-apps {
+  background-color: rgba(4, 36, 95, 0.801);
+  background-image: url(../img/cyber-3400789_1920.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
+.seccion-apps .seccion-apps__articulo .seccion-apps__titulo {
+  font-size: 2rem;
+  color: aliceblue;
+  padding-top: 1.4rem;
+}
+.seccion-apps .seccion-apps__articulo p {
+  font-size: 1.3rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+  color: aliceblue;
+  line-height: 1.8rem;
+}
+.seccion-apps .botones-app .img-tiendas-store {
+  width: 60%;
+  max-width: 14rem;
+}
+.seccion-apps .seccion-apps__figure .seccion-apps__figure--img {
+  max-width: 35rem;
+}/*# sourceMappingURL=seccion-apps.css.map */
