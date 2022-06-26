@@ -1,0 +1,68 @@
+.seccion-formulario h3 {
+  padding: 2rem 1rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.seccion-formulario p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.contact-info {
+  text-align: center;
+  padding-bottom: 1.6rem;
+  padding-top: 1.6rem;
+  background-color: #eff4fc;
+}
+.contact-info span {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #385C8D;
+}
+.contact-info a {
+  font-size: 1.2rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+.contact-info .social-links {
+  font-size: 2rem;
+}
+.contact-info .social-links .bi-facebook {
+  color: #3896E4;
+}
+.contact-info .social-links .bi-whatsapp {
+  color: rgb(12, 181, 12);
+}
+.contact-info .social-links .bi-youtube {
+  color: rgb(143, 14, 14);
+}
+
+.formulario-input {
+  background-color: #3896E4;
+  padding: 2rem 2rem;
+}
+.formulario-input .formulario-input--input {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1rem;
+}
+.formulario-input textarea {
+  width: 100%;
+}
+.formulario-input .btn-formulario {
+  border: none;
+  width: 150px;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #67a6ff;
+  cursor: pointer;
+  color: azure;
+  font-size: 20px;
+  transition: 0.3s all ease;
+}/*# sourceMappingURL=seccion-formulario.css.map */
