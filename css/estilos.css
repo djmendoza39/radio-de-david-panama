@@ -19,10 +19,6 @@ a {
   display: inline-block;
 }
 
-li {
-  list-style: none;
-}
-
 img {
   width: 100%;
   -o-object-fit: cover;
