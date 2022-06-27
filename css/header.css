@@ -58,4 +58,21 @@
   .header .boton-header {
     display: block;
   }
+}
+@media (max-width: 868px) {
+  .header .menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(66, 38, 126, 0.9294117647);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    height: 100vh;
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+    z-index: 5;
+  }
 }/*# sourceMappingURL=header.css.map */
