@@ -1,11 +1,12 @@
 .seccion-formulario h3 {
-  padding: 2rem 1rem;
+  padding-top: 3rem;
   font-size: 1.8rem;
   text-align: center;
 }
 .seccion-formulario p {
   font-size: 1.2rem;
   text-align: center;
+  padding-top: 0.3rem;
   padding-bottom: 2rem;
 }
 @media (min-width: 868px) {
@@ -17,6 +18,15 @@
   }
   .seccion-formulario .contenedor-formulario .formulario-input {
     flex: 2;
+  }
+}
+@media (min-width: 568px) {
+  .seccion-formulario h3 {
+    font-size: 2.8rem;
+  }
+  .seccion-formulario p {
+    margin: 1rem 1rem;
+    font-size: 1.6rem;
   }
 }
 

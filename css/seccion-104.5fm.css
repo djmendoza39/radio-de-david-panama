@@ -1,7 +1,6 @@
 .seccion-faro-de-david {
   width: 100%;
   height: auto;
-  padding-top: 3.4rem;
 }
 .seccion-faro-de-david h2 {
   font-size: 1.8rem;
@@ -9,4 +8,9 @@
 }
 .seccion-faro-de-david * {
   padding-bottom: 3rem;
+}
+@media (min-width: 568px) {
+  .seccion-faro-de-david h2 {
+    font-size: 2.8rem;
+  }
 }/*# sourceMappingURL=seccion-104.5fm.css.map */

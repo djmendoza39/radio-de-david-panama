@@ -66,4 +66,9 @@
   .seccion-equipo .contenedor-personal-equipo .contenedor-equipo--img {
     flex: 25%;
   }
+}
+@media (min-width: 568px) {
+  .seccion-equipo h3 {
+    font-size: 2.8rem;
+  }
 }/*# sourceMappingURL=seccion-equipo.css.map */

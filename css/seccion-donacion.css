@@ -19,6 +19,17 @@
   font-size: 1.2rem;
   padding-bottom: 1rem;
 }
+@media (min-width: 668px) {
+  .seccion-donacion .seccion-donacion-texto h3 {
+    font-size: 2rem;
+  }
+  .seccion-donacion .seccion-donacion-texto h3 span {
+    font-size: 2.8rem;
+  }
+  .seccion-donacion .seccion-donacion-texto p {
+    font-size: 1.6rem;
+  }
+}
 .seccion-donacion .seccion-donacion-btn .estilos-boton {
   background-color: #3896E4;
   border: none;
@@ -30,6 +41,7 @@
   height: 5.2rem;
   margin-top: 1.6rem;
   margin-bottom: 1.2rem;
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
 }
 .seccion-donacion .seccion-donacion-btn .estilos-boton:hover {
   background-color: #19629d;

@@ -8,6 +8,12 @@
   background-attachment: fixed;
   width: 100%;
   height: auto;
+  position: relative;
+}
+.seccion-apps svg {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
 }
 .seccion-apps .seccion-apps__articulo .seccion-apps__titulo {
   font-size: 2rem;
@@ -28,6 +34,9 @@
 .seccion-apps .botones-app .img-tiendas-store {
   width: 60%;
   max-width: 14rem;
+}
+.seccion-apps .seccion-apps__figure {
+  z-index: 1;
 }
 .seccion-apps .seccion-apps__figure .seccion-apps__figure--img {
   max-width: 35rem;
@@ -53,7 +62,7 @@
     grid-row: 4/span 6;
   }
   .seccion-apps .seccion-apps__figure {
-    grid-column: 6/span 10;
+    grid-column: 6/10;
     grid-row: 1/6;
   }
   .seccion-apps .seccion-apps__figure img {
